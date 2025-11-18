@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            /* background-color: red; */
+            position: relative;
+            -webkit-animation: moving;
+            animation: moving;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            /* animation-delay: 5s; */
+        }
+        /* @keyframes moving{
+            0% {background-color: red; left: 0px; top: 0px;}
+            25% {background-color: yellow; left: 300px; top: 0px;}
+            50% {background-color: blueviolet; left: 300px; top: 300px;}
+            75% {background-color: green; left: 0; top: 300px;}
+            100% {background-color: red; left: 0px; top: 0px;}
+        } */
+
+        @keyframes moving{
+            0% {background-image: url(images/Butterfly.png); left: 300px; top: 0px;}
+            25% {background-image: url(images/sky.png.jpg); left: 300px; top: 0px;}
+            50% {background-image: url(images/mario.png); left: 300px; top: 300px;}
+            75% {background-image: url(images/sunflower.jpg.webp); left: 0; top: 300px;}
+            100% {background-image: url(images/mario.png); left: 0px; top: 0px;}
+        }
+    </style>
+</head>
+<body>
+       <div></div>
+
+       
+</body>
+</html>

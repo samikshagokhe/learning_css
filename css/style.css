@@ -1,9 +1,122 @@
-*{
-    background-color: rgb(170, 93, 242);
-}
+/* *{
+    background-color: rgb(194, 142, 250);
+} */
 h3{
     background-color: brown;
 }
-p{
+h5{
     color: rgb(241, 80, 107);
+}
+.t_transform_upper{
+    text-transform: uppercase;
+}
+.t_transform_lower{
+    text-transform: lowercase;
+}
+.t_transform_capitalize{
+    text-transform: capitalize;
+}
+.t-center{
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+}
+.t_decor_under{
+    text-decoration: underline;
+}
+.t_decor_over{
+   text-decoration: overline;
+}
+.t_decor_line{
+    text-decoration: line-through;
+}
+.heading{
+    text-decoration: underline overline line-through;
+}
+.t_indent{
+    text-indent: 170px;
+}
+.letter_space{
+   letter-spacing: 10px;
+}
+.word_space{
+   word-spacing:50px;
+}
+.line_height{
+    line-height: 30px;
+}
+.line_indent{
+    text-indent: 170px;
+}
+.t_shadow1{
+    color: rgb(246, 81, 163);
+    text-shadow: 5px 5px 8px rgb(141, 100, 122);
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow2{
+     color: rgb(14, 84, 169);
+    text-shadow: 5px 5px 8px rgb(59, 56, 91);
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow3{
+     color: rgb(32, 181, 37);
+    text-shadow: 5px 5px 8px rgb(50, 83, 51);
+    font-size: 100px;
+    text-align: center;
+}
+.t_color{
+    color: brown;
+    font-size: 50px;
+}
+#t_color{
+    color: rgb(235, 48, 194);
+}
+.t_shadow{
+    color: purple;
+    font-size: 70px;
+    text-shadow: 5px 5px 4px rgb(72, 98, 7);
+}
+.cat_shadow{
+    box-shadow: 10px 10px 10px pink;
+}
+.cat_d_shadow{
+    filter: drop-shadow(5px 5px 5px rgb(150, 11, 122));
+}
+.img_ratio{
+    height: 300px;
+    width: 300px;
+}
+.sky_d_shadow{
+   filter: drop-shadow(5px 5px 5px purple);
+}
+.b_prop{
+    border: 10px solid rgb(235, 34, 34);
+}
+.cartoonImg{
+    border: 20px double rgb(9, 47, 9);
+}
+.butterflyImg{
+    border: 10px dashed rgb(41, 43, 192);
+}
+.skyImg{
+    border-radius: 50px;
+}
+.sunflowerImg{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 80px;
+    border: 8px solid blue;
+    border-top-color: darkcyan;
+    border-right-color: yellow;
+    border-bottom-color: coral;
+    border-left-color: rgb(247, 11, 164);
+}
+.doraImg{
+    border: 30px solid black;
+    border-radius: 50px 30px 50px 30px;
+    border-color: blue red yellow green;
 }
